@@ -1,0 +1,17 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build":"tsc -w src/index.ts",
+    "start:run":"nodemon src/index.js",
+    "start":"concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
